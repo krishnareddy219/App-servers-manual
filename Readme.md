@@ -127,4 +127,23 @@ server {
  ![preview](images/nop5.png)
  ![preview](images/nop6.png)
 
- 
+ OpenMRS in ubuntu manual
+ ------------------------
+
+* Here install openMRS
+* [Refer here](https://github.com/krishnareddy219/openmrs-core)
+  
+```
+   sudo apt update
+   sudo apt install openjdk-11-jdk
+   java --version
+   sudo apt install maven
+   mvn -version
+   git clone https://github.com/openmrs/openmrs-core.git
+   cd openmrs-core
+   mvn clean package
+   cd openmrs-core/webapp
+   mvn jetty:run
+     " https://publicip:8080/openmrs "
+```
+![preview](images/openmrs.png)
