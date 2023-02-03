@@ -97,23 +97,23 @@ server {
   sudo chgrp -R www-data nopCommerce/
   sudo chown -R www-data nopCommerce/
   sudo vi /etc/systemd/system/nopCommerce.service
-  " [Unit]
-Description=Example nopCommerce app running on Xubuntu
+" [Unit]
+  Description=Example nopCommerce app running on Xubuntu
 
-[Service]
-WorkingDirectory=/var/www/nopCommerce
-ExecStart=/usr/bin/dotnet /var/www/nopCommerce/Nop.Web.dll
-Restart=always
-# Restart service after 10 seconds if the dotnet service crashes:
-RestartSec=10
-KillSignal=SIGINT
-SyslogIdentifier=nopCommerce-example
-User=www-data
-Environment=ASPNETCORE_ENVIRONMENT=Production
-Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+  [Service]
+  WorkingDirectory=/var/www/nopCommerce
+  ExecStart=/usr/bin/dotnet /var/www/nopCommerce/Nop.Web.dll
+  Restart=always
+  # Restart service after 10 seconds if the dotnet   service crashes:
+  RestartSec=10
+  KillSignal=SIGINT
+  SyslogIdentifier=nopCommerce-example
+  User=www-data
+  Environment=ASPNETCORE_ENVIRONMENT=Production
+  Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
 
-[Install]
-WantedBy=multi-user.target   "
+  [Install]
+   WantedBy=multi-user.target   "
   sudo systemctl start nopCommerce.service
   sudo systemctl status nopCommerce.service
   sudo systemctl restart nginx
