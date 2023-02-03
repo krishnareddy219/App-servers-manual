@@ -65,5 +65,14 @@ Nopcommerce application on ubuntu manually
   sudo systemctl start nopCommerce.service
   sudo systemctl status nopCommerce.service
   sudo systemctl restart nginx
+    "http://publicip/install"
 
  ``` 
+ ![preview](images/nop1.png)
+ ![preview](images/nop2.png)
+ ![preview](images/nop3.png)
+ ![preview](images/nop4.png)
+ ![preview](images/nop5.png)
+ ![preview](images/nop6.png)
+
+ 
