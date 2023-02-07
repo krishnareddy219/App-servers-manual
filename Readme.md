@@ -147,3 +147,27 @@ server {
      " https://publicip:8080/openmrs "
 ```
 ![preview](images/openmrs.png)
+
+
+TERMS
+-----
+Quality Gate:
+    
+     A quality gate is a milestone in an IT project that requires that predefined criteria be met before the project can proceed to the next phase. Designed to provide benchmarks for quality standards, these gates are commonly used throughout application or software development projects.
+     
+   What are quality gates in agile testing?
+
+In software development, Quality Gates are used either to manage stages of development at the project level or to manage code quality in development. In Agile terms, they are like checklists for confirming deliverables are meeting defined requirements throughout the development process
+
+In DevOps, a quality gate refers to any set of requirements necessary to move a project from one stage to another. There are many kinds of quality gates, both human and automated. A gate could be as simple as a checklist or as complex as a full code review
+
+BCDR:
+
+ BCDR as a set of processes and techniques used to help an organization recover from a disaster and continue or resume routine business operations.
+
+ BCDR enables organizations to adapt to and bounce back from disruptions while maintaining continuous business operations.
+
+static code analysis:
+
+Static analysis, also called static code analysis, is a method of computer program debugging that is done by examining the code without executing the program. The process provides an understanding of the code structure and can help ensure that the code adheres to industry standards.
+its in development state we are used
